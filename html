@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Movies page</title>
+    <script type="text/javascript" src="movies.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', init);
+    </script>
+  </head>
+  <body>
+    <form name="movie-search" onsubmit="return false">
+      <input type="text" id="query" name="query" placeholder="Search" value="tt3896198" />
+      <button id="retrieve-movies">Load a movie</button>
+    </form>
+    <br />
+    <div id="movie-div"></div>
+  </body>
+</html>
